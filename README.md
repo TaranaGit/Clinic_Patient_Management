@@ -86,4 +86,4 @@ To install and run the Patient Management App, follow these steps:
 
 Patient Entry Form and a detailed display of patient's Info.
 
-![Patient Entry Form](./frontend/src/PMA.png)
+![Patient Entry Form](image/PMA.png)
