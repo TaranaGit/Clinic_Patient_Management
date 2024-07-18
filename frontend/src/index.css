@@ -1,0 +1,120 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+
+
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins";
+}
+header {
+    background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+header {
+  background-color:#1aac83; /* Change this to your desired background color */
+  color: white; /* White text color */
+  text-align: center; /* Center align the text */
+  padding: 10px 0; /* Add padding for better spacing */
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  
+}
+.logo {
+  width: 150px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Add margin to separate the image from the heading */
+}
+
+.heading {
+  margin: 0; /* Remove default margin */
+  text-align: center;
+  color: #ffefef;
+  
+}
+.home {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 100px;
+}
+
+.patient-details {
+  background-color: #4CAF50;
+  color: white;
+  font-size: small; /* Adjust font size for contained information */
+  padding: 10px; /* Decrease padding for a more compact look */
+  margin: 10px;
+  border-radius: 10px;
+  width: 170px; /* Adjust width as needed */
+  height: 60px; /* Adjust height for a rectangular shape */
+  display: inline-block; /* Display boxes side by side */
+  position: relative;
+  vertical-align: top;
+  overflow: hidden; /* Hide overflow content */
+  text-overflow: ellipsis; /* Add ellipsis for long text */
+  white-space: nowrap; /* Prevent text from wrapping */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  line-height: 0.5; /* Adjust line height */
+  
+}
+.patient-details h4 {
+  margin-top: 0; /* Remove default margin for h4 */
+}
+.delete-btn {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 1;
+}
+
+
+
+/* new workout form */
+label, input {
+  display: block;
+}
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ 
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+.create h1{
+  color:#1aac83;
+  font-size: medium;
+}
